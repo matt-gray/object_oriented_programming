@@ -3,5 +3,7 @@ class Student
     puts "I get it!"
 end
 
-class Instructor 
+class Instructor
+  def teach
+    puts "Everything in Ruby is an Object"
 end
