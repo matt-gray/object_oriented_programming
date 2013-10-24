@@ -1,3 +1,11 @@
+class Person
+  attr_accessor :name
+
+  def greeting
+    "Hi my name is #{@name}"
+  end
+end
+
 class Student
   def learn
     puts "I get it!"
